@@ -1,0 +1,30 @@
+{
+  "name": "intellij-cypress-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nyc --silent node ./index.js",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhessenberger/intellij-cypress-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhessenberger/intellij-cypress-repro/issues"
+  },
+  "homepage": "https://github.com/fhessenberger/intellij-cypress-repro#readme",
+  "devDependencies": {
+    "@cypress/code-coverage": "^1.12.2",
+    "cypress": "^4.0.2",
+    "cypress-intellij-reporter": "0.0.4",
+    "istanbul-lib-coverage": "^3.0.0",
+    "nyc": "^15.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
